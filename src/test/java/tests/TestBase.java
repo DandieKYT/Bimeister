@@ -7,6 +7,7 @@ import org.junit.jupiter.api.BeforeAll;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import pages.BasePage;
 import pages.CareerPage;
+import pages.NewsTestPage;
 import pages.VkPage;
 
 import java.util.Map;
@@ -16,6 +17,7 @@ public class TestBase extends Attachment {
     BasePage basePage = new BasePage();
     VkPage vkPage = new VkPage();
     CareerPage careerPage = new CareerPage();
+    NewsTestPage newsTestPage = new NewsTestPage();
 
     Attachment attachment = new Attachment();
 

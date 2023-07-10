@@ -76,28 +76,3 @@ task BizoneTests(type: Test) {
         includeTags "BizoneTests"
     }
 }
-task CareerTest(type: Test) {
-    useJUnitPlatform {
-        includeTags "CareerTest"
-    }
-}
-task MaterialsTest(type: Test) {
-    useJUnitPlatform {
-        includeTags "MaterialsTest"
-    }
-}
-task ProductTest(type: Test) {
-    useJUnitPlatform {
-        includeTags "ProductTest"
-    }
-}
-task VkTest(type: Test) {
-    useJUnitPlatform {
-        includeTags "VkTest"
-    }
-}
-task CareerAndCompanyTest(type: Test) {
-    useJUnitPlatform {
-        includeTags "CareerAndCompanyTest"
-    }
-}

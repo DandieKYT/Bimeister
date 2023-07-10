@@ -94,7 +94,8 @@ clean test
 
 <a name="Telegram"><h2>:iphone: Отчет в Telegram</h2></a>
 
-![This is an image](design/pictures/telegram.jpg)
+![image](https://github.com/DandieKYT/Bimeister/assets/75677738/dc3cb5d3-1c19-48b6-b2ed-6e1b9cad1ba6)
+
 
 <a name="Video"><h2>:movie_camera: Видео примеры прохождения тестов</h2></a>
 

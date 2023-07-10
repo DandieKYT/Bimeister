@@ -82,11 +82,13 @@ clean test
 
 - <a name="Allure_report1"><h3>Главный экран отчета</h3></a>
 
-![This is an image](design/pictures/allure1.png)
+![image](https://github.com/DandieKYT/Bimeister/assets/75677738/525bcc9f-fcd1-4463-9450-dc5adc0d25b9)
+
 
 -  <a name="Allure_report2"><h3>Страница с проведенными тестами</h3></a>
 
-![This is an image](design/pictures/allure2.png)
+![image](https://github.com/DandieKYT/Bimeister/assets/75677738/a0785349-8c7e-4932-a2a9-380dd572835f)
+
 
 <a name="Integration_Allure_TestOps"><h2>:bar_chart: Интеграция с Allure TestOps</h2></a>
 

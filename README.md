@@ -61,9 +61,9 @@
 :card_index_dividers: Проверка контактных данных <a href = "https://bimeister.com/ru/contacts/">компании.<a/>
 </br>
 
-<a name="Project"><h2>Проект</h2></a>
-<a href="https://bi.zone/"><code><img width="5%" title="BI.ZONE" src="https://www.connect-wit.ru/wp-content/uploads/2020/03/BI.ZONE-logo_Cybersecurity_RGB_SQ_Light-Blue.png"></code></a> Проект по автоматизации тестирования для <a target="_blank" href="https://bi.zone/">BI.ZONE</a> — компания по управлению цифровыми рисками.
-:star2:
+ <a name="Project"><h2>Проект</h2></a>
+ <code><a href="https://rockits.ru/#rec356687626"><img src="/design/icons/biem.jpg" width="60"></a></code>Проект по автоматизации тестирования для <a target="_blank" href="https://rockits.ru/#rec356687626">Rockits!</a> — агенство IT-рекрутинга.
+ :star2:
 
 <a name="Build_in_Jenkins" href="https://jenkins.autotests.cloud/job/BIZONE/"><h2>👷‍♂️ Сборки в [Jenkins](https://jenkins.autotests.cloud/job/BIZONE/)<h2></a>
 

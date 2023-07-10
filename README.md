@@ -47,18 +47,18 @@
 
 <a name="ImplementedСhecks"><h2>:heavy_check_mark:  Реализованные проверки:</h2></a>
 
-:clipboard: Наличие вакансии тестировщика на <a href = "https://spb.hh.ru/employer/2367681?roistat_visit=633908">HH </br>
+:clipboard: Наличие вакансии тестировщика на <a href = "https://spb.hh.ru/employer/3408968">HH </br>
 
-:speech_balloon: Переход на официальную страницу компании в <a href = "https://vk.com/bi_zone_vk?roistat_visit=633908">ВК
+:speech_balloon: Переход на официальную страницу компании в <a href = "https://vk.com/bimeister">ВК
 </br>
 
-:clipboard: Открытие страниц <a href = "https://bi.zone/about/career/">Карьера</a>/<a href = "https://bi.zone/expertise/research/">Материалы</a>
+:clipboard: Открытие страниц <a href = "https://bimeister.com/ru/products/">Продукты</a>/<a href = "https://bimeister.com/ru/products/">О компании</a>
 </br>
 
-🔎 Соответствие результатов выдачи во вкладке<a href = "https://bi.zone/catalog/"> "Продукты"
+🔎 Соответствие результатов выдачи во вкладке<a href = "https://bimeister.com/ru/press-center/"> "Медиа-центр"
 </br>
 
-:card_index_dividers: Чтение и проверка содержимого PDF файла <a href = "https://bi.zone/upload/for_download/bi_zone_the_fundamentals_of_business_continuity_management_ru.pdf">"Путь к цифровому лидерству. Основы управления непрерывностью бизнеса".<a/>
+:card_index_dividers: Проверка контактных данных <a href = "https://bimeister.com/ru/contacts/">компании.<a/>
 </br>
 
 <a name="Project"><h2>Проект</h2></a>

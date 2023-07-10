@@ -9,17 +9,16 @@ import org.junit.jupiter.params.provider.CsvSource;
 
 
 public class ProductsAndCompanyTest extends TestBase {
-    @Tag("BizoneTest")
-    @Tag("CareerAndCompanyTest")
+    @Tag("productsAndCompany")
     @CsvSource(value = {
             "Продукты и услуги ,      Программные продукты",
             "О компании,             О компании",
     })
     @Owner("Kudryavtsev")
     @Feature("Продукты и Компания")
-    @Story("Открытие страниц Продукты и Компания")
+    @Story("Открытие страниц Продукты и Компания и проверка их содержимого")
     @ParameterizedTest
-    public void careerAndCompany(String param, String expectedText) {
+    public void productsAndCompany(String param, String expectedText) {
         basePage.openPage();
         productsAndCompanyPage.openTitle(param);
         productsAndCompanyPage.checkTitle(expectedText);

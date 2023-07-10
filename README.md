@@ -58,7 +58,7 @@
 🔎 Соответствие результатов выдачи во вкладке<a href = "https://bimeister.com/ru/press-center/"> "Медиа-центр"
 </br>
 
-:card_index_dividers: Проверка контактных данных <a href = "https://bi.zone/upload/for_download/bi_zone_the_fundamentals_of_business_continuity_management_ru.pdf">"компании".<a/>
+:card_index_dividers: Проверка контактных данных <a href = "https://bimeister.com/ru/contacts/">компании.<a/>
 </br>
 
 <a name="Project"><h2>Проект</h2></a>

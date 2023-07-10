@@ -8,7 +8,7 @@ import static com.codeborne.selenide.Selenide.$;
 import static com.codeborne.selenide.Selenide.$x;
 import static io.qameta.allure.Allure.step;
 
-public class ProductsAndCompanyPage  {
+public class ProductsAndCompanyPage {
     CareerAndCompanyLocators locators = new CareerAndCompanyLocators();
 
     public ProductsAndCompanyPage openTitle(String param) {

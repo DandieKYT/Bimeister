@@ -10,10 +10,10 @@ import static io.qameta.allure.Allure.step;
 
 public class CareerPage {
     private SelenideElement
-    careerOpen = $x("//*[contains(@class, 'header__links')]/a[3]"),
-    openHhVacations = $x("//*[contains(@class, 'page-lead__widget')]//*[contains(@class, 'widget-job__link')]/div[3]"),
-    regionVacations = $x("//span[text()='Вакансии в других регионах']"),
-    QaVacation = $x("//span[text()='Тестировщик']");
+            careerOpen = $x("//*[contains(@class, 'header__links')]/a[3]"),
+            openHhVacations = $x("//*[contains(@class, 'page-lead__widget')]//*[contains(@class, 'widget-job__link')]/div[3]"),
+            regionVacations = $x("//span[text()='Вакансии в других регионах']"),
+            QaVacation = $x("//span[text()='Тестировщик']");
 
     public CareerPage careerOpen() {
         step("Открытие страницы c вакансиями компании", () -> {
@@ -21,6 +21,7 @@ public class CareerPage {
         });
         return this;
     }
+
     public CareerPage openHhVacations() {
         step("Открытие страницы c вакансиями на HH", () -> {
             openHhVacations.click();
@@ -28,12 +29,14 @@ public class CareerPage {
         });
         return this;
     }
+
     public CareerPage regionVacations() {
         step("Открытие вакансий в других регионах", () -> {
             regionVacations.click();
         });
         return this;
     }
+
     public CareerPage QaVacation() {
         step("Проверка наличия вакансии Тестировщик", () -> {
             QaVacation.shouldBe(Condition.visible);

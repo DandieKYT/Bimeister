@@ -78,7 +78,7 @@
 clean test
 
 ```
-<a name="Allure_report"><h2>:chart_with_downwards_trend: Allure </a><a href="https://jenkins.autotests.cloud/job/BIZONE/5/allure/">отчет</a></h2>
+<a name="Allure_report"><h2>:chart_with_downwards_trend: Allure </a><a href="https://jenkins.autotests.cloud/job/Bimeister/6/allure/">отчет</a></h2>
 
 - <a name="Allure_report1"><h3>Главный экран отчета</h3></a>
 

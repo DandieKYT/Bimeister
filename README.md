@@ -65,9 +65,10 @@
  <code><a href="https://rockits.ru/#rec356687626"><img src="/design/icons/biem.jpg" width="60"></a></code>Проект по автоматизации тестирования для <a target="_blank" href="https://rockits.ru/#rec356687626">Bimeister</a>  международная группа компаний, занимающаяся разработкой, инжинирингом и внедрением инновационных цифровых решений для промышленности.
  :star2:
 
-<a name="Build_in_Jenkins" href="https://jenkins.autotests.cloud/job/BIZONE/"><h2>👷‍♂️ Сборки в [Jenkins](https://jenkins.autotests.cloud/job/BIZONE/)<h2></a>
+<a name="Build_in_Jenkins" href="https://jenkins.autotests.cloud/job/Bimeister/"><h2>👷‍♂️ Сборки в [Jenkins](https://jenkins.autotests.cloud/job/Bimeister/)<h2></a>
 
-![This is an image](design/pictures/jenkins.png)
+![image](https://github.com/DandieKYT/Bimeister/assets/75677738/d43fe18e-5e3e-48d7-962a-ffd40cd62800)
+
 
 <a name="terminal"><h2>:computer: Запуск из терминала</h2></a>
 Удаленный запуск:

@@ -8,7 +8,8 @@ public class CareerTest extends TestBase {
         basePage.openPage();
         careerPage.careerOpen();
         careerPage.openHhVacations();
-        careerPage.regionVacations();
+        careerPage.activeVacation();
         careerPage.QaVacation();
+        careerPage.checkQaVacation();
     }
 }

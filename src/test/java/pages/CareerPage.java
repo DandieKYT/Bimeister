@@ -7,13 +7,16 @@ import com.codeborne.selenide.SelenideElement;
 import static com.codeborne.selenide.Selenide.$x;
 import static com.codeborne.selenide.Selenide.switchTo;
 import static io.qameta.allure.Allure.step;
+import static java.awt.SystemColor.window;
 
 public class CareerPage {
     private SelenideElement
             careerOpen = $x("//*[contains(@class, 'header__links')]/a[3]"),
             openHhVacations = $x("//*[contains(@class, 'page-lead__widget')]//*[contains(@class, 'widget-job__link')]/div[3]"),
-            regionVacations = $x("//span[text()='Вакансии в других регионах']"),
-            QaVacation = $x("//span[text()='Тестировщик']");
+            activeVacation = $x("//*[contains(@class, 'employer-sidebar-content')]/div[2]/a/span"),
+
+            QaVacation = $x("//*[@id='a11y-search-input']"),
+            checkQaVacation = $x("//h1[contains(text(), 'По запросу «» ничего не найдено')]");
 
     public CareerPage careerOpen() {
         step("Открытие страницы c вакансиями компании", () -> {
@@ -30,16 +33,22 @@ public class CareerPage {
         return this;
     }
 
-    public CareerPage regionVacations() {
-        step("Открытие вакансий в других регионах", () -> {
-            regionVacations.click();
+    public CareerPage activeVacation() {
+        step("Нажатие на ссылку активные вакансии", () -> {
+            activeVacation.click();
         });
         return this;
     }
 
     public CareerPage QaVacation() {
+        step("Ввод в поиске QA", () -> {
+            QaVacation.setValue("QA");
+        });
+        return this;
+    }
+    public CareerPage checkQaVacation() {
         step("Проверка наличия вакансии Тестировщик", () -> {
-            QaVacation.shouldBe(Condition.visible);
+            checkQaVacation.shouldNotBe(Condition.visible);
             Selenide.closeWindow();
             switchTo().window(0);
         });

@@ -4,7 +4,7 @@ import org.junit.jupiter.api.Test;
 
 public class VkTest extends TestBase {
     @Test
-    public void VkPage() {
+    public void vkPage() {
         basePage.openPage();
         vkPage.vkIcon();
         vkPage.VkTitleCheck();

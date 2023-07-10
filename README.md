@@ -100,7 +100,11 @@ clean test
 <a name="Video"><h2>:movie_camera: Видео примеры прохождения тестов</h2></a>
 
 - <a name="Video1"><h3>Пример запуска тестов через selenoid</h3></a>
-    <h1><a href="https://selenoid.autotests.cloud/video/e3e723968a6e10d3b7d8bb4f5b7eb525.mp4">Открытие страниц Карьера/Материалы<br>
+    <h1><a href="https://selenoid.autotests.cloud/video/3dfa79f466010ea9163a97c46c110371.mp4">BimeisterTest<br>
+
+
+
+https://github.com/DandieKYT/Bimeister/assets/75677738/3c663be3-4a9a-4982-9098-8075819ae33f
 
 
 

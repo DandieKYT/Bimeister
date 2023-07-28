@@ -23,7 +23,7 @@ public class ContactPage {
 
     public ContactPage checkAddress() {
         step("Проверка адреса", () -> {
-            checkAddress.shouldBe(Condition.text("125284, г. Москва, Ленинградский\n" + "проспект д.35, стр.1"));
+            checkAddress.shouldBe(Condition.text("125040, г. Москва, Ленинградский\n" + "проспект д.35, стр.1"));
         });
         return this;
     }

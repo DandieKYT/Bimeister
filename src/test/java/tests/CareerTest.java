@@ -2,6 +2,7 @@ package tests;
 
 import io.qameta.allure.Feature;
 import io.qameta.allure.Story;
+import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.Test;
 
@@ -10,6 +11,7 @@ public class CareerTest extends TestBase {
     @Tag("qaVacation")
     @Feature("Проверка вакансии тестировщик")
     @Story("Открытие страницы на HH с поиском вакансии QA")
+    @DisplayName("Проверка вакансии тестировщик")
     public void qaVacation() {
         basePage.openPage();
         careerPage.careerOpen();

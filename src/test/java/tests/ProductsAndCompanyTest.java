@@ -19,7 +19,7 @@ public class ProductsAndCompanyTest extends TestBase {
     @Feature("Продукты и Компания")
     @Story("Открытие страниц Продукты и Компания и проверка их содержимого")
     @ParameterizedTest
-    @DisplayName("Продукты и Компания")
+    @DisplayName("Открытие страниц Продукты и Компания")
     public void productsAndCompany(String param, String expectedText) {
         basePage.openPage();
         productsAndCompanyPage.openTitle(param);

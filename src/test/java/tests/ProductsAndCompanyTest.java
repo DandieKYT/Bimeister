@@ -16,10 +16,10 @@ public class ProductsAndCompanyTest extends TestBase {
             "О компании,             О компании",
     })
     @Owner("Kudryavtsev")
-    @Feature("Продукты и Компания")
-    @Story("Открытие страниц Продукты и Компания и проверка их содержимого")
+    @Feature("Открытие страниц Продукты/Компания")
+    @Story("Открытие страниц Продукты/Компания и проверка их содержимого")
     @ParameterizedTest
-    @DisplayName("Открытие страниц Продукты и Компания")
+    @DisplayName("Открытие страниц Продукты/Компания")
     public void productsAndCompany(String param, String expectedText) {
         basePage.openPage();
         productsAndCompanyPage.openTitle(param);
